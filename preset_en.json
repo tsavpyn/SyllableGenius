@@ -1,0 +1,129 @@
+{
+  "space": {
+    "match": [
+      {
+        "sign": " ",
+        "pos": 7
+      }
+    ],
+    "process": 1
+  },
+  "space_illegal": {
+    "match": [
+      {
+        "sign": " ",
+        "pos": 10
+      },
+      {
+        "sign": " ",
+        "pos": 11
+      }
+    ],
+    "process": 4
+  },
+  "break": {
+    "match": [
+      {
+        "sign": "\u2014",
+        "pos": 6
+      },
+      {
+        "sign": "-",
+        "pos": 6
+      },
+      {
+        "sign": "\u2014",
+        "pos": 11
+      },
+      {
+        "sign": "-",
+        "pos": 11
+      }
+    ],
+    "process": 1
+  },
+  "dash": {
+    "match": [
+      {
+        "sign": "-",
+        "pos": 7
+      }
+    ],
+    "process": 1
+  },
+  "comma, period, exclam, ques, colon": {
+    "match": [
+      {
+        "sign": ",",
+        "pos": 8
+      },
+      {
+        "sign": ".",
+        "pos": 8
+      },
+      {
+        "sign": "!",
+        "pos": 8
+      },
+      {
+        "sign": "?",
+        "pos": 8
+      },
+      {
+        "sign": ":",
+        "pos": 8
+      },
+      {
+        "sign": ",",
+        "pos": 11
+      },
+      {
+        "sign": ".",
+        "pos": 11
+      },
+      {
+        "sign": "!",
+        "pos": 11
+      },
+      {
+        "sign": "?",
+        "pos": 11
+      },
+      {
+        "sign": ":",
+        "pos": 11
+      }
+    ],
+    "process": 1
+  },
+  "quote_front": {
+    "match": [
+      {
+        "sign": "\"",
+        "pos": 9
+      },
+      {
+        "sign": "\"",
+        "pos": 10
+      }
+    ],
+    "process": 2
+  },
+  "quote_end": {
+    "match": [
+      {
+        "sign": "\"",
+        "pos": 8
+      },
+      {
+        "sign": "\"",
+        "pos": 9
+      },
+      {
+        "sign": "\"",
+        "pos": 11
+      }
+    ],
+    "process": 1
+  }
+}
